@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Techlift Challenge</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <script src="https://kit.fontawesome.com/e685d0a80e.js" crossorigin="anonymous"></script>
+</head>
 <body class="bg-gray-0 ">
     <main class="flex gap-7 mx-[20px] my-[10px] ">
         <aside class="w-[15rem] px-[15px] bg-stone-50 hidden  lg:block rounded-xl">
@@ -60,7 +60,7 @@
 
         <div class="flex flex-col h-full md:grid md:grid-cols-2 grow gap-6 p-[20px]   ">
             <!-- Top block -->
-            <div class="flex items-center min-w-full justify-between col-span-2 bg-stone-50 p-[10px] rounded-xl">
+            <div class="flex items-center justify-between col-span-2 bg-stone-50 p-[10px] rounded-xl">
                 <p class="flex font-bold items-center mx-[20px]">
                 <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#9f9fa0"><path d="M477-120q-149 0-253-105.5T120-481h60q0 125 86 213t211 88q127 0 215-89t88-216q0-124-89-209.5T477-780q-68 0-127.5 31T246-667h105v60H142v-208h60v106q52-61 123.5-96T477-840q75 0 141 28t115.5 76.5Q783-687 811.5-622T840-482q0 75-28.5 141t-78 115Q684-177 618-148.5T477-120Zm128-197L451-469v-214h60v189l137 134-43 43Z"/></svg>               
                 13:34PM <span class="font-medium ml-[5px] text-slate-500">UTC+3</span> 
@@ -180,30 +180,46 @@
                 </div>
                  
                 <!-- apps section -->
-                <div class="grid grid-cols-2 gap-[30px]">
-                    <div class="flex">
-                        <img src="" alt="">
+                <div class="grid grid-cols-2 gap-[30px] h-full p-7 ">
+
+                    <div class="flex items-center gap-4">
+                       <div class="w-12 h-12 bg-purple-600 rounded-xl flex items-center justify-center">
+                            <!-- Replace with <img src="..." /> if using image -->
+                            <span class="text-white font-bold text-xl">X</span>
+                        </div>
                         <div class="flex flex-col">
                             <p class="font-bold text-[1.3rem]">SleepTrack</p>
                             <p class="bg-blue-50 text-blue-700 font-bold p-1 rounded-xl">5 active orders</p>
                         </div>
                     </div>
-                    <div>
-                        <img src="" alt="">
-                        <div>
+
+                    <div class="flex items-center gap-4">
+                       <div class="w-12 h-12 bg-red-400 rounded-xl flex items-center justify-center">
+                            <!-- Replace with <img src="..." /> if using image -->
+                            <span class="text-white font-bold text-xl">O</span>
+                        </div>
+                        <div class="flex flex-col">
                             <p class="font-bold text-[1.3rem]">SleepTrack</p>
-                            <p class="bg-blue-50 text-blue-700 font-bold p-1 rounded-xl max-w-max">No active orders</p>
+                            <p class="bg-blue-50 text-blue-700 font-bold p-1 rounded-xl">5 active orders</p>
                         </div>
                     </div>
-                    <div>
-                        <img src="" alt="">
+
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-red-400 rounded-xl flex items-center justify-center">
+                            <!-- Replace with <img src="..." /> if using image -->
+                            <span class="text-white font-bold text-xl">O</span>
+                        </div>
                         <div>
                             <p class="font-bold text-[1.3rem]">shibaswap</p>
                             <p class="bg-blue-50 text-blue-700 font-bold p-1 rounded-xl max-w-max">15 active orders</p>
                         </div>
                     </div>
-                    <div>
-                        <img src="" alt="">
+
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-600 rounded-xl flex items-center justify-center">
+                            <!-- Replace with <img src="..." /> if using image -->
+                            <span class="text-white font-bold text-xl">X</span>
+                        </div>
                         <div>
                             <p class="font-bold text-[1.3rem]">Balancer</p>
                             <p class="bg-blue-50 text-blue-700 font-bold p-1 rounded-xl max-w-max">12 active orders</p>
